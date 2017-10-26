@@ -1,0 +1,745 @@
+@font-face{
+	src: url('../fonts/ProximaNovaSoft-Regular.otf');
+	font-family: 'proxima';
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
+
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Header */
+
+header .header{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* Logo Header */
+header .logo{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 50px;
+	margin-right: 13px;
+}
+
+header .logo-search{
+	padding: 0;
+	margin: 0;
+}
+
+header .search .icon-search{
+	float: left;
+}
+
+/* button icon search */
+
+header .search .icon-search button{
+	background: #f2f2f2;
+	border: none;
+	height: 50px;
+	padding: 5px 15px;
+	cursor: pointer;
+	outline: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+header .search .icon-search i{
+	color: #808080;
+	font-size: 16px;
+}
+
+header .header .col-lg-2{
+	margin: 0;
+	padding: 0;
+}
+
+header .search .input-search, header .search .icon-search{
+	margin: 0;
+	padding: 0;
+}
+
+/* Input Search */
+
+header .search .input-search{
+	background: #f2f2f2;
+	float: right;
+	width: 77.8%;
+}
+
+header .search .input-search input[type="text"]{
+	height: 50px;
+	outline: none;
+	font-family: 'proxima';
+	color: #808080;
+	background: #f2f2f2;
+	border: none;
+	font-size: 15px;
+	width: 77%;
+	margin: 0;
+}
+
+/* Navigation Header */
+
+header .menu nav ul{
+	list-style: none;
+	float: right;
+}
+
+header .menu nav ul li{
+	display: inline-block;
+	padding: 7px;
+}	
+
+header .menu nav ul li a{
+	text-decoration: none;
+}
+
+header .menu nav ul li .icon-nav{
+	text-align: center;
+}
+
+header .menu nav ul li .icon-nav i{
+	color: #ffcb05;
+}
+
+header .menu nav ul li .text-nav span{
+	color: #ffcb05;
+	font-family: 'proxima';
+	font-size: 14px;
+}
+
+header .menu{
+	background: #808080;
+	height: 50px;
+}
+
+/* Orange Background */
+
+header .orange{
+	background: #ffcb05;
+	height: 50px;
+	margin-bottom: 50px;
+}
+
+/* Background Header */
+
+header .bg-header{
+	clear: both;
+	background: url('../img/bg.jpg');
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* Profil Photo */
+
+header .bg-header .photo-header{
+	text-align: center;
+	padding-top: 210px;
+}
+
+header .bg-header .photo-header .check i{
+	color: #fff;
+	margin-top: 4px;
+}
+
+header .bg-header .photo-header .check-l{
+	display: flex;
+	justify-content: center;
+	margin-left: 100px;
+	position: relative;
+	top: 35px;
+}
+
+header .bg-header .photo-header .check{
+	background: #009245;
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+}
+
+header .bg-header .photo-header img{
+	border-radius: 100%;
+	width: 125px;
+}
+
+/* Profile */
+
+header .profile{
+	text-align: center;
+	margin-top: 80px;
+}
+
+header .profile h3{
+	font-family: 'proxima';
+	font-size: 27px;
+	color: #808080;
+	font-weight: bold;
+}
+
+header .profile p{
+	font-family: 'proxima';
+	font-size: 19px;
+	color: #808080;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+header .profile span{
+	font-family: 'proxima';
+	color: #808080;
+	font-size: 15px;
+}
+
+/* Navigation Profile */
+
+header .profile-nav{
+	margin-top: 30px;
+}
+
+header .profile-nav nav ul{
+	list-style: none;
+	text-align: center;
+}
+
+header .profile-nav nav ul li{
+	display: inline-block;
+	padding: 15px 20px;
+	margin: 2px;
+	background: #ffcb05;
+	width: 50px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+
+header .profile-nav nav ul li a{
+	text-decoration: none;
+}
+
+header .profile-nav nav ul li .icon-nav{
+	text-align: center;
+}
+
+header .profile-nav nav ul li .icon-nav i{
+	color: #808080;
+	font-size: 30px;
+}
+
+header .profile-nav nav ul li .text-nav span{
+	color: #808080;
+	font-family: 'proxima';
+	font-size: 12px;
+}
+
+header .col-lg-1{
+	width: 11.4%;
+}
+
+/* End Header */
+
+/* Content Website */
+
+section .section{
+	background: #f2f2f2;
+	width: 100%;
+	height: 1500px;
+}
+
+section .margin{
+	width: 97%;
+	margin: 0 auto;
+}
+
+section .margin2{
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Title Personal Info*/
+
+section .personal-info{
+	background: #FFF;
+	width: 100%;
+	margin-top: 20px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+section .personal-info-title{
+	padding-top: 20px;
+}
+
+section .personal-info-title h3{
+	float: left;
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .personal-info-title button{
+	background: transparent;
+	border: none;
+	float: right;
+	cursor: pointer;
+	outline: none;
+}
+
+section .personal-info-title button i{
+	font-size: 18px;
+	color: #808080;
+	font-weight: bold;
+}
+
+section .personal-info-title hr{
+	clear: both;
+	background: #f2f2f2;
+	width: 100%;
+	height: 2px;
+	border: none;
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+/* Content Personal Info */
+
+section .personal-info .personal-info-content{
+	clear: both;
+	padding-bottom: 40px;
+}
+
+section .personal-info .personal-info-content .left-content{
+	width: 45%;
+	float: left;
+	font-family: 'proxima';
+	font-size: 15px;
+	color: #808080;
+	line-height: 21px;
+}
+
+section .personal-info .personal-info-content .right-content{
+	width: 55%;
+	float: left;
+	font-family: 'proxima';
+	font-size: 15px;
+	color: #808080;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 21px;
+}
+
+section .personal-info .personal-info-content p{
+	padding-bottom: 28px;
+}
+
+section .personal-info .personal-info-content a{
+	text-decoration: none;
+	color: #0071bc;
+}
+
+/* Content 	Add more tab */
+
+section .more-tab{
+	background: #FFF;
+	width: 100%;
+	margin-top: 20px;
+}
+
+section .more-tab{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+section .more-tab h3{
+	float: left;
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .more-tab button{
+	background: transparent;
+	border: none;
+	float: right;
+	cursor: pointer;
+	outline: none;
+}
+
+section .more-tab button i{
+	font-size: 18px;
+	color: #808080;
+	font-weight: bold;
+}
+
+section .more-tab hr{
+	clear: both;
+	background: #f2f2f2;
+	width: 100%;
+	height: 2px;
+	border: none;
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+/* Title Dashboard */
+
+section .dashboard{
+	background: #FFF;
+	width: 100%;
+	height: 180px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+section .dashboard-title{
+	padding-top: 20px;
+}
+
+section .dashboard-title h3{
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .dashboard-title span{
+	font-family: 'proxima';
+	color: #808080;
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+section .dashboard-title hr{
+	background: #f2f2f2;
+	width: 100%;
+	height: 2px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Content Dashboard */
+
+section .dashboard-content .star, section .dashboard-content .sixtyone, section .dashboard-content .five, section .dashboard-content .one{
+	background: #f2f2f2;
+	width: 24.2%;
+	margin-right: 5px;
+	box-sizing: border-box;
+	height: 70px;
+	padding: 0;
+}
+
+section .dashboard-content .star{
+	padding-top: 15px;
+}
+
+section .dashboard-content .sixtyone, section .dashboard-content .five{
+	padding-top: 22px;
+}
+
+section .dashboard-content .one{
+	padding-top: 27px;
+}
+
+section .dashboard-content .col-lg-7, section .dashboard-content .col-lg-5{
+	padding: 0;
+}
+
+section .dashboard-content .text{
+	font-family: 'proxima';
+	color: #808080;
+	font-size: 10px;
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+section .dashboard-content .star .star-icon{
+	font-size: 35px;
+	color: #fbb03b;
+	padding-left: 10px;
+	border-left: solid 2px #808080;
+	height: 40px;
+}
+
+section .dashboard-content .sixtyone .number, section .dashboard-content .five .number{
+	font-size: 35px;
+	color: #fbb03b;
+	font-family: 'proxima';
+	font-weight: bold;
+	position: relative;
+	bottom: 5px;
+	padding-left: 10px;
+	border-left: solid 2px #808080;
+	height: 40px;
+}
+
+section .dashboard-content .one .number{
+	font-size: 35px;
+	color: #fbb03b;
+	font-family: 'proxima';
+	font-weight: bold;
+	position: relative;
+	bottom: 11px;
+	padding-left: 10px;
+	border-left: solid 2px #808080;
+	height: 40px;
+}
+
+section .dashboard-content button{
+	background: transparent;
+	border: none;
+	float: right;
+	cursor: pointer;
+	outline: none;
+}
+
+section .dashboard-content button i{
+	font-size: 18px;
+	color: #808080;
+	font-weight: bold;
+	position: relative;
+	bottom: 50px;
+	right: 5px;
+}
+
+/* Title Jobs */
+
+section .jobs{
+	background: #FFF;
+	width: 100%;
+	height: 1000px;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+section .jobs .j-left{
+	float: left;
+}
+
+section .jobs .j-right{
+	float: right;
+	margin-top: 13px;
+}
+
+section .jobs-title{
+	padding-top: 20px;
+}
+
+section .jobs-title h3{
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .jobs-title span{
+	font-family: 'proxima';
+	color: #808080;
+	font-size: 12px;
+	margin-left: 3px;
+}
+
+section .jobs hr{
+	background: #f2f2f2;
+	clear: both;
+	width: 100%;
+	height: 2px;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section .jobs-title button{
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+section .jobs-title button i{
+	color: #808080;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.clear{
+	clear: both;
+}
+
+/* Content Jobs */
+
+/*Content One */
+
+section .jobs .jobs-img i{
+	background: #f9cb08;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 71px;
+	padding-bottom: 71px;
+	width: 100%;
+	border-radius: 25px;
+}
+
+section .jobs .jobs-content-one{
+	height: 242px;
+}
+
+section .jobs .jobs-content-c{
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .jobs .jobs-content-c h3{
+	font-size: 22px;
+}
+
+section .jobs .jobs-content-c p{
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+section .jobs .working-title h3{
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .working-content{
+	margin-top: 10px;
+}
+
+section .working-content span{
+	font-family: 'proxima';
+	color: #808080;
+	font-size: 12px;
+}
+
+section .working-content i{
+	color: #fbb03b;
+}
+
+section .skill-content-one, section .skill-content-two{
+	background: #8cc63f;
+	margin-top: 5px;
+}
+
+section .skill-content-three{
+	background: #29abe2;
+	margin-top: 5px;
+}
+
+section .skill-content-four{
+	background: #f15a24;
+	margin-top: 5px;
+}
+
+section .skill-content-one{
+	margin-right: 1px;
+}
+
+section .jobs .working-content .col-lg-6{
+	padding: 0;
+}
+
+section .jobs .skill-content span{
+	font-family: 'proxima';
+	font-size: 12px;
+	color: #fff;
+}
+
+section .jobs .skill-content{
+	text-align: center;
+}
+
+section .jobs .skill .col-lg-6{
+	width: 45%;
+	margin-right: 5px;
+}
+
+section .jobs .skill .col-lg-6{
+	padding: 0;
+}
+
+section .jobs .skill-title{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+section .jobs .skill-title h3{
+	font-family: 'proxima';
+	color: #808080;
+}
+
+section .jobs .jobs-button{
+	margin-top: 10px;
+}
+
+section .jobs .jobs-button button{
+	background: #f67c29;
+	padding: 8px 0px;
+	width: 100%;
+	border-radius: 7px;
+	outline: none;
+	cursor: pointer;
+	font-family: 'proxima';
+	color: #fff;
+	font-size: 20px;
+	border: solid 1px #f67c29;
+}
+
+/* Content Two */
+
+section .jobs .jobs-icon i{
+	background: #f9cb08;
+	font-size: 45px;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	border-radius: 25px;
+}
+
+section .jobs .jobs-content-two .col-lg-5{
+	padding: 0;
+}
+
+section .jobs .jobs-content-two .col-lg-7{
+	padding-right: 0;
+}
+
+section .jobs .jobs-content-two{
+	margin-top: 50px;
+	font-family: 'proxima';
+}
+
+section .jobs .jobs-content-two p{
+	color: #808080;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+section .jobs .jobs-content-two{
+	color: #808080;
+	font-size: 10px;
+}
+
+section .jobs .jobs-content-two button{
+	margin-top: 7px;
+	background: #fbb03b;
+	border: solid 1px #fbb03b;
+	font-family: 'proxima';
+	color: #fff;
+	font-size: 10px;
+	padding: 2px 10px;
+	border-radius: 8px;
+	outline: none;
+}
+
+section .jobs .jobs-content-two .col-lg-4{
+	margin-top: 30px;
+}
